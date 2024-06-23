@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "fishery:catfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "fishery:crayfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "fishery:crab_claw"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

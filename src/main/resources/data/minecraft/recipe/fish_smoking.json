@@ -1,0 +1,11 @@
+{
+    "type": "minecraft:smoking",
+    "ingredient": {
+        "tag": "minecraft:fishes"
+    },
+    "result": {
+        "id": "fishery:cooked_fish"
+    },
+    "experience": 0.1,
+    "cookingtime": 100
+}

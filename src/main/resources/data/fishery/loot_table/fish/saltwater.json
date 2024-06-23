@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "fishery:tuna"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "fishery:sunfish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "fishery:red_snapper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:cod"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fishery:anglerfish",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#minecraft:is_deep_ocean"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fishery:jellyfish",
+          "weight": 15,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#minecraft:is_deep_ocean"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish",
+          "weight": 10,
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "biomes": "#minecraft:produces_corals_from_bonemeal"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

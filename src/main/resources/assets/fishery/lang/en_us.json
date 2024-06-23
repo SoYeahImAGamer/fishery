@@ -1,0 +1,32 @@
+{
+  "item.fishery.dragonfish": "Dragonfish",
+  "item.fishery.voidskipper": "Voidskipper",
+
+  "item.fishery.ghast_brood": "Ghast Brood",
+  "item.fishery.soul_leech": "Soul Leech",
+
+  "item.fishery.crayfish": "Crayfish",
+  "item.fishery.catfish": "Catfish",
+  "item.fishery.crab_claw": "Crab Claw",
+
+  "item.fishery.salamander": "Salamander",
+  "item.fishery.ghostfish": "Ghostfish",
+  "item.fishery.pale_bass": "Pale Bass",
+  "item.fishery.echofin": "Echofin",
+  "item.fishery.sculkamander": "Sculkamander",
+
+  "item.fishery.largemouth_bass": "Largemouth Bass",
+  "item.fishery.bluegill": "Bluegill",
+
+  "item.fishery.tuna": "Tuna",
+  "item.fishery.sunfish": "Ocean Sunfish",
+  "item.fishery.red_snapper": "Red Snapper",
+  "item.fishery.anglerfish": "Anglerfish",
+  "item.fishery.jellyfish": "Jellyfish",
+
+
+  "item.fishery.cooked_fish": "Cooked Fish",
+
+
+  "itemgroup.fish": "Robin's Fishery"
+}
