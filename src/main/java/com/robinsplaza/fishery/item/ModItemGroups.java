@@ -39,6 +39,7 @@ public class ModItemGroups {
                         entries.add(ModItems.JELLYFISH);
 
                         entries.add(ModItems.COOKED_FISH);
+                        entries.add(ModItems.JELLYFISH_JELLY);
 
                     }).build());
 

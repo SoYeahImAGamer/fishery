@@ -1,12 +1,12 @@
-// 1.21	2024-06-23T13:53:34.7724503	Fishery/Model Definitions
+// 1.21	2024-06-30T13:00:53.0971742	Fishery/Model Definitions
+e4d4b7c61131cbfe10b70afc8c54437b82317ca5 assets\fishery\models\item\cooked_fish.json
 9946e6fc67dc1411378ece8662ce53627e2bf048 assets\fishery\models\item\crab_claw.json
-9ee04ec803e1632b3b52d82e81ba537b1fa0e499 assets\fishery\models\item\cooked_fish.json
 c331f9583eadece486c8cfd03864a24f1d00599f assets\fishery\models\item\ghast_brood.json
 cc625a0fbb6263273ba69a5171b480b7c4a968d1 assets\fishery\models\item\red_snapper.json
 8c82ae795613cd7b544cf813200102913459454b assets\fishery\models\item\jellyfish.json
 fc6a8b2e30c5ea5dd4a6a54c8526aab0b0ceee10 assets\fishery\models\item\bluegill.json
-a058daab5a802307e6945275e6fb585106f7d246 assets\fishery\models\item\anglerfish.json
 ac1f7be35c79463116f6566c11889d044692b042 assets\fishery\models\item\catfish.json
+a058daab5a802307e6945275e6fb585106f7d246 assets\fishery\models\item\anglerfish.json
 bcf29ab5d9f66987c49ea60f7b693cf54771a1b2 assets\fishery\models\item\crayfish.json
 30a3b9f43e8dcdec28d32bab676f6bc43b85268e assets\fishery\models\item\largemouth_bass.json
 332980043c81b4003f295512a517f3c598c09132 assets\fishery\models\item\tuna.json
@@ -15,6 +15,7 @@ bf6abe03202d51424d2b77331fe9b048d17d4bf0 assets\fishery\models\item\salamander.j
 5bb1316f56cceb4168475807cd52d4abc2f4ed16 assets\fishery\models\item\echofin.json
 9e0fb7156c4c8a3739a116788c24b1de6dcdf7fe assets\fishery\models\item\ghostfish.json
 ef08771cec680e76e75c7798141fea7d7fe8ecb3 assets\fishery\models\item\dragonfish.json
+f01a7d7baca75a0d4d0e318fd28e963ce52cf31f assets\fishery\models\item\jellyfish_jelly.json
 4a98c7be0aebbf7a1a6f7e80dc9005080dd08b1d assets\fishery\models\item\pale_bass.json
 217ddc7398a3c952f49ebf1c75bfd27caac9ffc4 assets\fishery\models\item\sunfish.json
 314927e1daf936db1fe28d49b8c1c6ee83ce574e assets\fishery\models\item\sculkamander.json

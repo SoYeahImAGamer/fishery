@@ -7,41 +7,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 60,
-          "name": "minecraft:cod",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": [{
-				  "text": "Ghast Brood",
-				  "italic": false
-				  }]
-            },
-			{
-				"function": "minecraft:set_nbt",
-				"tag": "{custom_model_data: 201}"
-			}
-          ]
+          "weight": 30,
+          "name": "fishery:soul_leech"
         },
         {
           "type": "minecraft:item",
           "weight": 40,
-          "name": "minecraft:pufferfish",
-          "functions": [
-            {
-              "function": "minecraft:set_name",
-              "entity": "this",
-              "name": [{
-				  "text": "Soul Leech",
-				  "italic": false
-				  }]
-            },
-			{
-				"function": "minecraft:set_nbt",
-				"tag": "{custom_model_data: 201}"
-			}
-          ]
+          "name": "fishery:ghast_brood"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "fishery:jellyfish"
         }
       ]
     }

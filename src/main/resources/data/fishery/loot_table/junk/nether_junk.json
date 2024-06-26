@@ -54,7 +54,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
+          "weight": 7,
           "name": "minecraft:bone"
         },
         {
@@ -66,11 +66,6 @@
           "type": "minecraft:item",
           "weight": 5,
           "name": "minecraft:stick"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 5,
-          "name": "fishingfixes:notes"
         },
         {
           "type": "minecraft:item",

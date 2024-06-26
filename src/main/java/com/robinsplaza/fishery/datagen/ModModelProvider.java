@@ -6,6 +6,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
+import net.minecraft.item.Items;
 
 public class ModModelProvider extends FabricModelProvider {
     public ModModelProvider(FabricDataOutput output) {
@@ -47,7 +48,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.JELLYFISH, Models.GENERATED);
 
         //food
-        itemModelGenerator.register(ModItems.COOKED_FISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_FISH, Items.COOKED_COD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.JELLYFISH_JELLY, Models.GENERATED);
 
     }
 }

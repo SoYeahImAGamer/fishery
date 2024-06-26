@@ -3,15 +3,15 @@
 	"id": "fishery",
 	"version": "${version}",
 	"name": "Fishery",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Revamps Minecraft's fishing system with a bunch of new fish and loot!",
 	"authors": [
-		"Me!"
+		"RobinsPlaza"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/fishery/icon.png",
 	"environment": "*",
 	"entrypoints": {

@@ -4,11 +4,13 @@ import com.robinsplaza.fishery.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeExporter;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.util.Identifier;
 
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
@@ -23,6 +25,12 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.FOOD, ModItems.JELLYFISH_JELLY, 1)
+                .input(ModItems.JELLYFISH)
+                .input(Items.SUGAR)
+                .input(Items.GLASS_BOTTLE)
+                .criterion(hasItem(ModItems.JELLYFISH), conditionsFromItem(ModItems.JELLYFISH))
+                .offerTo(exporter, Identifier.of("jellyfish_jelly"));
 
     }
 }

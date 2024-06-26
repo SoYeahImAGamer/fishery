@@ -62,6 +62,8 @@ public class ModItems {
     //food stuff
     public static final Item COOKED_FISH = (Item) registerItem("cooked_fish",
             new Item(new Item.Settings().food(ModFoodComponents.COOKED_FISH)));
+    public static final Item JELLYFISH_JELLY = (Item) registerItem("jellyfish_jelly",
+            new Item(new Item.Settings().food(ModFoodComponents.JELLY)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Fishery.MOD_ID, name), item);
