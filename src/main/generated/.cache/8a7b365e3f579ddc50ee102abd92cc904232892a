@@ -1,10 +1,10 @@
-// 1.21	2024-06-23T13:53:34.7724503	Fishery/Model Definitions
+// 1.21	2024-06-23T14:32:11.9788245	Fishery/Model Definitions
 9946e6fc67dc1411378ece8662ce53627e2bf048 assets\fishery\models\item\crab_claw.json
-9ee04ec803e1632b3b52d82e81ba537b1fa0e499 assets\fishery\models\item\cooked_fish.json
+e4d4b7c61131cbfe10b70afc8c54437b82317ca5 assets\fishery\models\item\cooked_fish.json
 c331f9583eadece486c8cfd03864a24f1d00599f assets\fishery\models\item\ghast_brood.json
 cc625a0fbb6263273ba69a5171b480b7c4a968d1 assets\fishery\models\item\red_snapper.json
-8c82ae795613cd7b544cf813200102913459454b assets\fishery\models\item\jellyfish.json
 fc6a8b2e30c5ea5dd4a6a54c8526aab0b0ceee10 assets\fishery\models\item\bluegill.json
+8c82ae795613cd7b544cf813200102913459454b assets\fishery\models\item\jellyfish.json
 a058daab5a802307e6945275e6fb585106f7d246 assets\fishery\models\item\anglerfish.json
 ac1f7be35c79463116f6566c11889d044692b042 assets\fishery\models\item\catfish.json
 bcf29ab5d9f66987c49ea60f7b693cf54771a1b2 assets\fishery\models\item\crayfish.json
