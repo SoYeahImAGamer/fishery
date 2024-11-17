@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": {
+    "tag": "fishery:eels"
+  },
+  "result": {
+    "id": "fishery:cooked_eel"
+  }
+}

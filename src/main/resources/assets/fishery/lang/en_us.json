@@ -7,6 +7,10 @@
   "item.fishery.ghast_brood": "Ghast Brood",
   "item.fishery.soul_leech": "Soul Leech",
 
+  "item.fishery.walleye": "Walleye",
+  "item.fishery.leafskimmer": "Leafskimmer",
+  "item.fishery.branch_eel": "Branch Eel",
+
   "item.fishery.crayfish": "Crayfish",
   "item.fishery.catfish": "Catfish",
   "item.fishery.crab_claw": "Crab Claw",
@@ -27,8 +31,11 @@
   "item.fishery.jellyfish": "Jellyfish",
 
   "item.fishery.cooked_fish": "Cooked Fish",
+  "item.fishery.cooked_eel": "Cooked Eel",
   "item.fishery.jellyfish_jelly": "Sea Jelly",
   "item.fishery.sashimi": "Sashimi",
+
+  "block.fishery.sea_jelly_block": "Block of Sea Jelly",
 
 
   "itemgroup.fish": "Fishery"

@@ -1,13 +1,17 @@
-// 1.21	2024-11-16T17:11:50.5112403	Fishery/Model Definitions
+// 1.21	2024-11-17T14:22:40.234517	Fishery/Model Definitions
+05e769a66ee16a4340080384fa11d38e7912a5c6 assets\fishery\models\item\walleye.json
 9946e6fc67dc1411378ece8662ce53627e2bf048 assets\fishery\models\item\crab_claw.json
 a2bdf3ad03f4f2780e0c6fe24ff110070a9c5e36 assets\fishery\blockstates\sea_jelly_block.json
 cc625a0fbb6263273ba69a5171b480b7c4a968d1 assets\fishery\models\item\red_snapper.json
+74b7fc2b02a2283ff5405f6aa1a3e5be238d8ed1 assets\fishery\models\item\cooked_eel.json
 a058daab5a802307e6945275e6fb585106f7d246 assets\fishery\models\item\anglerfish.json
 fc6a8b2e30c5ea5dd4a6a54c8526aab0b0ceee10 assets\fishery\models\item\bluegill.json
 ac1f7be35c79463116f6566c11889d044692b042 assets\fishery\models\item\catfish.json
 30a3b9f43e8dcdec28d32bab676f6bc43b85268e assets\fishery\models\item\largemouth_bass.json
-e14c939b738536a15b0fdaddf0b183bbe8e36c5e assets\fishery\models\item\fillet_knife.json
 332980043c81b4003f295512a517f3c598c09132 assets\fishery\models\item\tuna.json
+e14c939b738536a15b0fdaddf0b183bbe8e36c5e assets\fishery\models\item\fillet_knife.json
+df1bade56b01d5cb18a229ec30d721d19a4656a3 assets\fishery\models\item\leafskimmer.json
+422d8709d34a458ab2fcb391de13d9d005284dca assets\fishery\models\item\branch_eel.json
 7cb94c03bd5a87c17cbdc6e37f73f40ed9ebe9f1 assets\fishery\models\item\sashimi.json
 f01a7d7baca75a0d4d0e318fd28e963ce52cf31f assets\fishery\models\item\jellyfish_jelly.json
 ef08771cec680e76e75c7798141fea7d7fe8ecb3 assets\fishery\models\item\dragonfish.json

@@ -23,6 +23,14 @@ public class ModItems {
             new Item(new Item.Settings().food(ModFoodComponents.TOXIC_FISH)));
 
     //overworld fish
+        //forest fish
+    public static final Item BRANCH_EEL = (Item) registerItem("branch_eel",
+            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
+    public static final Item LEAFSKIMMER = (Item) registerItem("leafskimmer",
+            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
+    public static final Item WALLEYE = (Item) registerItem("walleye",
+            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
+
         //bog fish
     public static final Item CRAYFISH = (Item) registerItem("crayfish",
             new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
@@ -63,6 +71,8 @@ public class ModItems {
 
     //food stuff
     public static final Item COOKED_FISH = (Item) registerItem("cooked_fish",
+            new Item(new Item.Settings().food(ModFoodComponents.COOKED_FISH)));
+    public static final Item COOKED_EEL = (Item) registerItem("cooked_eel",
             new Item(new Item.Settings().food(ModFoodComponents.COOKED_FISH)));
     public static final Item JELLYFISH_JELLY = (Item) registerItem("jellyfish_jelly",
             new HoneyBottleItem(new Item.Settings().food(ModFoodComponents.JELLY).recipeRemainder(Items.GLASS_BOTTLE).maxCount(16)));

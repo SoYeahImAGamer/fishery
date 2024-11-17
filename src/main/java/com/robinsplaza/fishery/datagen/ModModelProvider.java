@@ -34,6 +34,10 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.GHAST_BROOD, Models.GENERATED);
         itemModelGenerator.register(ModItems.SOUL_LEECH, Models.GENERATED);
 
+        itemModelGenerator.register(ModItems.WALLEYE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.LEAFSKIMMER, Models.GENERATED);
+        itemModelGenerator.register(ModItems.BRANCH_EEL, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.CRAYFISH, Models.GENERATED);
         itemModelGenerator.register(ModItems.CATFISH, Models.GENERATED);
         itemModelGenerator.register(ModItems.CRAB_CLAW, Models.GENERATED);
@@ -55,6 +59,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         //food
         itemModelGenerator.register(ModItems.COOKED_FISH, Items.COOKED_COD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_EEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.JELLYFISH_JELLY, Models.GENERATED);
         itemModelGenerator.register(ModItems.SASHIMI, Models.GENERATED);
 

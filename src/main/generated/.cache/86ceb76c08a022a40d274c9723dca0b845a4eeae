@@ -1,7 +1,13 @@
-// 1.21	2024-11-16T17:11:50.5127407	Fishery/Recipes
+// 1.21	2024-11-17T14:22:40.2360194	Fishery/Recipes
 a20e0299c1a9c81a0949754f6a19cf24f9102979 data\fishery\advancement\recipes\food\jellyfish_jelly.json
-67c9ec85cc57f563b7ab73e3b4578a2c595e9ea3 data\fishery\advancement\recipes\food\jellyfish_jelly_from_block.json
+bbe2aa7c5ba42148a1db80ad3de86722a6f196d3 data\fishery\advancement\recipes\food\cooked_eel_from_campfire.json
 ca7df5caf2da0b6c33bd11c418e4bffcfe8a579d data\fishery\recipe\sea_jelly_block.json
 3b590f2df7b82fbf05ea2d7a84a923cc9e4731fa data\fishery\advancement\recipes\redstone\sea_jelly_block.json
 dc6fa0d3155299a4c8285c6d15405c53e38499b6 data\fishery\recipe\jellyfish_jelly.json
+abc1e8ddbebcd3c9f82544f7038b2a2da0ae5f99 data\fishery\recipe\cooked_eel_from_campfire.json
+67c9ec85cc57f563b7ab73e3b4578a2c595e9ea3 data\fishery\advancement\recipes\food\jellyfish_jelly_from_block.json
+79f7aaadd76571989d14c7272128a99fce640d5a data\fishery\recipe\cooked_eel.json
+4d9cffbb3384f4e59b97bb00b20963e8e0ed7aaf data\fishery\advancement\recipes\food\cooked_eel_from_smoking.json
+cb48f55e5f9a0290776351a9729b98a35b3bbb0e data\fishery\recipe\cooked_eel_from_smoking.json
+16c15044f6b3a01f1aea64e01c058bdbde25df8c data\fishery\advancement\recipes\food\cooked_eel.json
 b10a99b7b6bbfdcea8be553815e583ad3905d09d data\fishery\recipe\jellyfish_jelly_from_block.json

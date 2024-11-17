@@ -1,6 +1,7 @@
 package com.robinsplaza.fishery.item;
 
 import com.robinsplaza.fishery.Fishery;
+import com.robinsplaza.fishery.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -24,6 +25,10 @@ public class ModItemGroups {
                         entries.add(ModItems.CRAB_CLAW);
                         entries.add(ModItems.CATFISH);
 
+                        entries.add(ModItems.LEAFSKIMMER);
+                        entries.add(ModItems.BRANCH_EEL);
+                        entries.add(ModItems.WALLEYE);
+
                         entries.add(ModItems.SALAMANDER);
                         entries.add(ModItems.GHOSTFISH);
                         entries.add(ModItems.PALE_BASS);
@@ -40,8 +45,10 @@ public class ModItemGroups {
                         entries.add(ModItems.JELLYFISH);
 
                         entries.add(ModItems.COOKED_FISH);
+                        entries.add(ModItems.COOKED_EEL);
                         entries.add(ModItems.JELLYFISH_JELLY);
                         entries.add(ModItems.SASHIMI);
+                        entries.add(ModBlocks.SEA_JELLY_BLOCK);
 
                     }).build());
 

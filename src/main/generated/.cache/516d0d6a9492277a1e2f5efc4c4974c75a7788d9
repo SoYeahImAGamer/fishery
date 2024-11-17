@@ -1,7 +1,8 @@
-// 1.21	2024-11-16T17:11:50.5137406	Fishery/Tags for minecraft:item
-daa549badf34b81bbcb21f62e2bf16830a0092f4 data\fishery\tags\item\fish.json
+// 1.21	2024-11-17T14:22:40.2370197	Fishery/Tags for minecraft:item
+305ff355f8e57f7ae8772e15c69c224a36ca30c0 data\fishery\tags\item\fish.json
 1be98dcd857a5d1f167dfa23a0dd03bb1eedd43f data\fishery\tags\item\shellfish.json
 68795ee67880b64587b2132cbb33166f2060e82e data\c\tags\item\tools\knives.json
 bdbeae02a808ff0eaa0179133de641968847bb0e data\c\tags\item\tools.json
-27cecc50e31f671403a78147dcd04162d240e1fe data\minecraft\tags\item\fishes.json
+75afd9ecd8a9d3b689aaf84a4b4a032c2f2529e0 data\minecraft\tags\item\fishes.json
 0a315e52fd352fb635784629a05603b3dc950c57 data\fishery\tags\item\sashimifish.json
+81dd2fa529ed39fc3dbf541d4d059ae59c9da596 data\fishery\tags\item\eels.json

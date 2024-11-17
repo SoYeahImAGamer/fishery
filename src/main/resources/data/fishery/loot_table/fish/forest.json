@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "bonus_rolls": 0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "fishery:walleye"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "fishery:leafskimmer"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "fishery:branch_eel"
+        }
+      ]
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/fish"
+}

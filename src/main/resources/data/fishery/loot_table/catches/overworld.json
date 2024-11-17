@@ -95,7 +95,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "fishery:catches/biome/freshwater",
+          "value": "fishery:catches/biome/forest",
           "conditions": [
             {
               "condition": "minecraft:location_check",
@@ -146,7 +146,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "value": "fishery:catches/biome/freshwater",
+          "value": "fishery:catches/biome/forest",
           "conditions": [
             {
               "condition": "minecraft:location_check",
