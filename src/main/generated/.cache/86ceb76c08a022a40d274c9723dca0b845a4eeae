@@ -1,3 +1,7 @@
-// 1.21	2024-06-30T13:00:53.0986784	Fishery/Recipes
+// 1.21	2024-11-16T17:11:50.5127407	Fishery/Recipes
 a20e0299c1a9c81a0949754f6a19cf24f9102979 data\fishery\advancement\recipes\food\jellyfish_jelly.json
+67c9ec85cc57f563b7ab73e3b4578a2c595e9ea3 data\fishery\advancement\recipes\food\jellyfish_jelly_from_block.json
+ca7df5caf2da0b6c33bd11c418e4bffcfe8a579d data\fishery\recipe\sea_jelly_block.json
+3b590f2df7b82fbf05ea2d7a84a923cc9e4731fa data\fishery\advancement\recipes\redstone\sea_jelly_block.json
 dc6fa0d3155299a4c8285c6d15405c53e38499b6 data\fishery\recipe\jellyfish_jelly.json
+b10a99b7b6bbfdcea8be553815e583ad3905d09d data\fishery\recipe\jellyfish_jelly_from_block.json

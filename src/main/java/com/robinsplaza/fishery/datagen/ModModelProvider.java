@@ -1,5 +1,7 @@
 package com.robinsplaza.fishery.datagen;
 
+import com.ibm.icu.text.Normalizer2;
+import com.robinsplaza.fishery.block.ModBlocks;
 import com.robinsplaza.fishery.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
@@ -16,10 +18,14 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
+        blockStateModelGenerator.registerSimpleState(ModBlocks.SEA_JELLY_BLOCK);
+
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+
+        itemModelGenerator.register(ModItems.FILLET_KNIFE, Models.HANDHELD);
 
         //fish
         itemModelGenerator.register(ModItems.DRAGONFISH, Models.GENERATED);
@@ -50,6 +56,7 @@ public class ModModelProvider extends FabricModelProvider {
         //food
         itemModelGenerator.register(ModItems.COOKED_FISH, Items.COOKED_COD, Models.GENERATED);
         itemModelGenerator.register(ModItems.JELLYFISH_JELLY, Models.GENERATED);
+        itemModelGenerator.register(ModItems.SASHIMI, Models.GENERATED);
 
     }
 }

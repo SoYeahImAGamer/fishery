@@ -2,7 +2,7 @@
     "type": "minecraft:campfire_cooking",
     "category": "food",
     "ingredient": {
-        "tag": "minecraft:fishes"
+        "tag": "fishery:r_shellfish"
     },
     "result": {
         "id": "fishery:cooked_fish"

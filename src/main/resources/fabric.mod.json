@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"com.robinsplaza.fishery.FisheryDataGenerator"
+		],
+		"client": [
+			"com.robinsplaza.fishery.FisheryClient"
 		]
 	},
 	"mixins": [

@@ -1,12 +1,14 @@
 package com.robinsplaza.fishery.item;
 
 import com.robinsplaza.fishery.Fishery;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
+    public static final Item FILLET_KNIFE = (Item) registerItem("fillet_knife",
+            new Item(new Item.Settings().maxDamage(256)));
 
     //end fish
     public static final Item DRAGONFISH = (Item) registerItem("dragonfish",
@@ -63,7 +65,9 @@ public class ModItems {
     public static final Item COOKED_FISH = (Item) registerItem("cooked_fish",
             new Item(new Item.Settings().food(ModFoodComponents.COOKED_FISH)));
     public static final Item JELLYFISH_JELLY = (Item) registerItem("jellyfish_jelly",
-            new Item(new Item.Settings().food(ModFoodComponents.JELLY)));
+            new HoneyBottleItem(new Item.Settings().food(ModFoodComponents.JELLY).recipeRemainder(Items.GLASS_BOTTLE).maxCount(16)));
+    public static final Item SASHIMI = (Item) registerItem("sashimi",
+            new Item(new Item.Settings().food(ModFoodComponents.SASHIMI)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Fishery.MOD_ID, name), item);

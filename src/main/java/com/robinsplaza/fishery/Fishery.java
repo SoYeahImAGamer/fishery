@@ -1,5 +1,6 @@
 package com.robinsplaza.fishery;
 
+import com.robinsplaza.fishery.block.ModBlocks;
 import com.robinsplaza.fishery.item.ModItemGroups;
 import com.robinsplaza.fishery.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -23,6 +24,7 @@ public class Fishery implements ModInitializer {
 
 		LOGGER.info("Loading Stuff for " + MOD_ID + "...");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 	}
 }

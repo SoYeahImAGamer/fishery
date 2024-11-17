@@ -21,7 +21,10 @@ public class ModFoodComponents {
             .build();
     public static FoodComponent JELLY = new FoodComponent.Builder()
             .nutrition(4)
-            .saturationModifier(0.8f)
-            .usingConvertsTo(Items.GLASS_BOTTLE)
+            .saturationModifier(0.9f)
+            .build();
+    public static FoodComponent SASHIMI = new FoodComponent.Builder()
+            .nutrition(4)
+            .saturationModifier(0.6f)
             .build();
 }

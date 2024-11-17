@@ -10,9 +10,10 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup RUBY_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(Fishery.MOD_ID, "fish"),
+    public static final ItemGroup FISH_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(Fishery.MOD_ID, "fish"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fish"))
                     .icon(() -> new ItemStack(ModItems.LARGEMOUTH_BASS)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.DRAGONFISH);
                         entries.add(ModItems.VOIDSKIPPER);
 
@@ -40,6 +41,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COOKED_FISH);
                         entries.add(ModItems.JELLYFISH_JELLY);
+                        entries.add(ModItems.SASHIMI);
 
                     }).build());
 
