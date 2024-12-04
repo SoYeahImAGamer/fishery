@@ -28,6 +28,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FILLET_KNIFE, Models.HANDHELD);
 
         //fish
+        itemModelGenerator.register(ModItems.NULLFIN, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.DRAGONFISH, Models.GENERATED);
         itemModelGenerator.register(ModItems.VOIDSKIPPER, Models.GENERATED);
 
@@ -62,6 +64,11 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.COOKED_EEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.JELLYFISH_JELLY, Models.GENERATED);
         itemModelGenerator.register(ModItems.SASHIMI, Models.GENERATED);
+
+        //mod compat items
+            //aether
+        itemModelGenerator.register(ModItems.AERBAIA, Models.GENERATED);
+        itemModelGenerator.register(ModItems.AERSUCKER, Models.GENERATED);
 
     }
 }

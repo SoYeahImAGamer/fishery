@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FILLET_KNIFE = (Item) registerItem("fillet_knife",
             new Item(new Item.Settings().maxDamage(256)));
+    public static final Item NULLFIN = (Item) registerItem("nullfin",
+            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
 
     //end fish
     public static final Item DRAGONFISH = (Item) registerItem("dragonfish",
@@ -78,6 +80,14 @@ public class ModItems {
             new HoneyBottleItem(new Item.Settings().food(ModFoodComponents.JELLY).recipeRemainder(Items.GLASS_BOTTLE).maxCount(16)));
     public static final Item SASHIMI = (Item) registerItem("sashimi",
             new Item(new Item.Settings().food(ModFoodComponents.SASHIMI)));
+
+
+    //mod compat items
+        //aether
+    public static final Item AERBAIA = (Item) registerItem("aerbaia",
+            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
+    public static final Item AERSUCKER = (Item) registerItem("aersucker",
+            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, Identifier.of(Fishery.MOD_ID, name), item);

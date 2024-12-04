@@ -19,6 +19,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     private static final TagKey<Item> SASHIMIFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:sashimifish"));
     private static final TagKey<Item> EELS = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:eels"));
 
+
+    private static final TagKey<Item> CFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:fish"));
     private static final TagKey<Item> KNIVES = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:tools/knives"));
     private static final TagKey<Item> TOOLS = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:tools"));
 
@@ -36,6 +38,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .addTag(KNIVES);
 
         getOrCreateTagBuilder(ItemTags.FISHES)
+                .add(ModItems.NULLFIN)
                 .add(ModItems.ANGLERFISH)
                 .add(ModItems.BLUEGILL)
                 .add(ModItems.CATFISH)
@@ -57,9 +60,15 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.VOIDSKIPPER)
                 .add(ModItems.WALLEYE)
                 .add(ModItems.LEAFSKIMMER)
-                .add(ModItems.BRANCH_EEL);
+                .add(ModItems.BRANCH_EEL)
+                .add(ModItems.AERBAIA)
+                .add(ModItems.AERSUCKER);
+
+        getOrCreateTagBuilder(CFISH)
+                .addTag(ItemTags.FISHES);
 
         getOrCreateTagBuilder(FISH)
+                .add(ModItems.NULLFIN)
                 .add(ModItems.ANGLERFISH)
                 .add(ModItems.BLUEGILL)
                 .add(ModItems.CATFISH)
@@ -77,17 +86,20 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Items.COD)
                 .add(Items.TROPICAL_FISH)
                 .add(ModItems.WALLEYE)
-                .add(ModItems.LEAFSKIMMER);
+                .add(ModItems.LEAFSKIMMER)
+                .add(ModItems.AERSUCKER);
 
         getOrCreateTagBuilder(EELS)
                 .add(ModItems.BRANCH_EEL)
-                .add(ModItems.DRAGONFISH);
+                .add(ModItems.DRAGONFISH)
+                .add(ModItems.AERBAIA);
 
         getOrCreateTagBuilder(SHELLFISH)
                 .add(ModItems.CRAB_CLAW)
                 .add(ModItems.CRAYFISH);
 
         getOrCreateTagBuilder(SASHIMIFISH)
+                .add(ModItems.NULLFIN)
                 .add(ModItems.RED_SNAPPER)
                 .add(ModItems.TUNA)
                 .add(Items.SALMON)

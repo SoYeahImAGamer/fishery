@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smoking",
     "ingredient": {
-        "tag": "fishery:r_shellfish"
+        "tag": "fishery:shellfish"
     },
     "result": {
         "id": "fishery:cooked_fish"

@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smelting",
     "ingredient": {
-        "tag": "fishery:r_fish"
+        "tag": "fishery:fish"
     },
     "result": {
         "id": "fishery:cooked_fish"

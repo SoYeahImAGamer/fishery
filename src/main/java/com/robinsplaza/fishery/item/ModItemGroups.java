@@ -50,6 +50,11 @@ public class ModItemGroups {
                         entries.add(ModItems.SASHIMI);
                         entries.add(ModBlocks.SEA_JELLY_BLOCK);
 
+                        entries.add(ModItems.NULLFIN);
+                        entries.add(ModItems.AERBAIA);
+                        entries.add(ModItems.AERSUCKER);
+
+
                     }).build());
 
     public static void registerItemGroups(){

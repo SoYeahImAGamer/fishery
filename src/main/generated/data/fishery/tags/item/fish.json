@@ -1,5 +1,6 @@
 {
   "values": [
+    "fishery:nullfin",
     "fishery:anglerfish",
     "fishery:bluegill",
     "fishery:catfish",
@@ -17,6 +18,7 @@
     "minecraft:cod",
     "minecraft:tropical_fish",
     "fishery:walleye",
-    "fishery:leafskimmer"
+    "fishery:leafskimmer",
+    "fishery:aersucker"
   ]
 }

@@ -1,5 +1,6 @@
 {
   "values": [
+    "fishery:nullfin",
     "fishery:anglerfish",
     "fishery:bluegill",
     "fishery:catfish",
@@ -21,6 +22,8 @@
     "fishery:voidskipper",
     "fishery:walleye",
     "fishery:leafskimmer",
-    "fishery:branch_eel"
+    "fishery:branch_eel",
+    "fishery:aerbaia",
+    "fishery:aersucker"
   ]
 }

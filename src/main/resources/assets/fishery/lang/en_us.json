@@ -38,5 +38,9 @@
   "block.fishery.sea_jelly_block": "Block of Sea Jelly",
 
 
-  "itemgroup.fish": "Fishery"
+  "itemgroup.fish": "Fishery",
+
+
+  "item.fishery.aerbaia": "Aerbaia",
+  "item.fishery.aersucker": "Aersucker"
 }
