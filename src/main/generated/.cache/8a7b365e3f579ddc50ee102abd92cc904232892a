@@ -1,10 +1,10 @@
-// 1.21	2024-12-04T12:24:08.106212	Fishery/Model Definitions
+// 1.21	2025-01-08T13:20:45.6580813	Fishery/Model Definitions
 05e769a66ee16a4340080384fa11d38e7912a5c6 assets\fishery\models\item\walleye.json
 9946e6fc67dc1411378ece8662ce53627e2bf048 assets\fishery\models\item\crab_claw.json
 a2bdf3ad03f4f2780e0c6fe24ff110070a9c5e36 assets\fishery\blockstates\sea_jelly_block.json
+c82259892ef7b4a7f319f5229d52727d6a1b2792 assets\fishery\models\item\aersucker.json
 74b7fc2b02a2283ff5405f6aa1a3e5be238d8ed1 assets\fishery\models\item\cooked_eel.json
 cc625a0fbb6263273ba69a5171b480b7c4a968d1 assets\fishery\models\item\red_snapper.json
-c82259892ef7b4a7f319f5229d52727d6a1b2792 assets\fishery\models\item\aersucker.json
 a058daab5a802307e6945275e6fb585106f7d246 assets\fishery\models\item\anglerfish.json
 fc6a8b2e30c5ea5dd4a6a54c8526aab0b0ceee10 assets\fishery\models\item\bluegill.json
 ac1f7be35c79463116f6566c11889d044692b042 assets\fishery\models\item\catfish.json
@@ -18,6 +18,7 @@ f01a7d7baca75a0d4d0e318fd28e963ce52cf31f assets\fishery\models\item\jellyfish_je
 ef08771cec680e76e75c7798141fea7d7fe8ecb3 assets\fishery\models\item\dragonfish.json
 0af2c7855fa3e3f859ee61bf775cbfb9ab0bfdfe assets\fishery\models\item\sea_jelly_block.json
 217ddc7398a3c952f49ebf1c75bfd27caac9ffc4 assets\fishery\models\item\sunfish.json
+11dc39f608b72d7e96f177ef6b05ff7290641607 assets\fishery\models\item\netherite_fishing_rod.json
 314927e1daf936db1fe28d49b8c1c6ee83ce574e assets\fishery\models\item\sculkamander.json
 cd915732cc13c3e37c142963bebd8de6b652677d assets\fishery\models\item\voidskipper.json
 e4d4b7c61131cbfe10b70afc8c54437b82317ca5 assets\fishery\models\item\cooked_fish.json

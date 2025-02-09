@@ -26,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.FILLET_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_FISHING_ROD, Models.HANDHELD_ROD);
 
         //fish
         itemModelGenerator.register(ModItems.NULLFIN, Models.GENERATED);

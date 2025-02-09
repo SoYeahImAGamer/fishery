@@ -1,0 +1,47 @@
+{
+  "item.fishery.fillet_knife": "Fillet Knife",
+  "item.fishery.netherite_fishing_rod": "Netherite Fishing Rod",
+
+  "item.fishery.dragonfish": "Purple longfish",
+  "item.fishery.voidskipper": "Wyvern salmon",
+
+  "item.fishery.ghast_brood": "Brood o' ghast",
+  "item.fishery.soul_leech": "Sucker o' th' dead",
+
+  "item.fishery.walleye": "Big eyefish",
+  "item.fishery.leafskimmer": "Fish o' th leaves",
+  "item.fishery.branch_eel": "Timber longfish",
+
+  "item.fishery.crayfish": "Small pincherrr",
+  "item.fishery.catfish": "Whiserrrfish",
+  "item.fishery.crab_claw": "Claw o' pincherrr",
+
+  "item.fishery.salamander": "Newt",
+  "item.fishery.ghostfish": "Cavefish",
+  "item.fishery.pale_bass": "Cavern eat'r",
+  "item.fishery.echofin": "Infected cavefish",
+  "item.fishery.sculkamander": "Infected cave newt",
+
+  "item.fishery.largemouth_bass": "Lake eat'r",
+  "item.fishery.bluegill": "Litt'l bluefish",
+
+  "item.fishery.tuna": "Tuna",
+  "item.fishery.sunfish": "Flatfish",
+  "item.fishery.red_snapper": "Bloodfish",
+  "item.fishery.anglerfish": "Deep candlefish",
+  "item.fishery.jellyfish": "Sting'n bubblefish",
+
+  "item.fishery.cooked_fish": "Smoked fish",
+  "item.fishery.cooked_eel": "Smoked longfish",
+  "item.fishery.jellyfish_jelly": "Jar o' jelly",
+  "item.fishery.sashimi": "Slic'd raw fish",
+
+  "block.fishery.sea_jelly_block": "Cube o' jelly",
+
+
+  "itemgroup.fish": "Fishery",
+
+
+  "item.fishery.aerbaia": "Cloud eel",
+  "item.fishery.aersucker": "Cloud leech"
+}

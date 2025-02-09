@@ -46,9 +46,11 @@ public class ModItemGroups {
 
                         entries.add(ModItems.COOKED_FISH);
                         entries.add(ModItems.COOKED_EEL);
-                        entries.add(ModItems.JELLYFISH_JELLY);
                         entries.add(ModItems.SASHIMI);
+                        entries.add(ModItems.JELLYFISH_JELLY);
                         entries.add(ModBlocks.SEA_JELLY_BLOCK);
+
+                        //entries.add(ModItems.NETHERITE_FISHING_ROD);
 
                         entries.add(ModItems.NULLFIN);
                         entries.add(ModItems.AERBAIA);

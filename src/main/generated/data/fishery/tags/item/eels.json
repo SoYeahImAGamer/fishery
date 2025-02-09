@@ -2,6 +2,8 @@
   "values": [
     "fishery:branch_eel",
     "fishery:dragonfish",
+    "fishery:salamander",
+    "fishery:sculkamander",
     "fishery:aerbaia"
   ]
 }

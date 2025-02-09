@@ -9,6 +9,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item FILLET_KNIFE = (Item) registerItem("fillet_knife",
             new Item(new Item.Settings().maxDamage(256)));
+    public static final Item NETHERITE_FISHING_ROD = (NetheriteFishingRodItem) registerItem("netherite_fishing_rod",
+            new NetheriteFishingRodItem(new Item.Settings().maxDamage(256).fireproof()));
     public static final Item NULLFIN = (Item) registerItem("nullfin",
             new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)));
 

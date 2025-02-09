@@ -1,5 +1,6 @@
 {
   "item.fishery.fillet_knife": "Fillet Knife",
+  "item.fishery.netherite_fishing_rod": "Netherite Fishing Rod",
 
   "item.fishery.dragonfish": "Dragonfish",
   "item.fishery.voidskipper": "Voidskipper",
@@ -35,7 +36,7 @@
   "item.fishery.jellyfish_jelly": "Sea Jelly",
   "item.fishery.sashimi": "Sashimi",
 
-  "block.fishery.sea_jelly_block": "Block of Sea Jelly",
+  "block.fishery.sea_jelly_block": "Sea Jelly Block",
 
 
   "itemgroup.fish": "Fishery",

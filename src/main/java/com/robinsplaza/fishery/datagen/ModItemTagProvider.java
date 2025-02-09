@@ -21,8 +21,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
 
 
     private static final TagKey<Item> CFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:fish"));
+    private static final TagKey<Item> RAW_FISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:foods/raw_fish"));
     private static final TagKey<Item> KNIVES = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:tools/knives"));
     private static final TagKey<Item> TOOLS = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:tools"));
+
+    private static final TagKey<Item> CAT_FOOD = TagKey.of(RegistryKeys.ITEM, Identifier.of("minecraft:cat_food"));
 
     public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
         super(output, completableFuture);
@@ -35,7 +38,11 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.FILLET_KNIFE);
 
         getOrCreateTagBuilder(TOOLS)
+                .add(ModItems.NETHERITE_FISHING_ROD)
                 .addTag(KNIVES);
+
+        getOrCreateTagBuilder(ItemTags.FISHING_ENCHANTABLE)
+                .add(ModItems.NETHERITE_FISHING_ROD);
 
         getOrCreateTagBuilder(ItemTags.FISHES)
                 .add(ModItems.NULLFIN)
@@ -67,6 +74,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(CFISH)
                 .addTag(ItemTags.FISHES);
 
+        getOrCreateTagBuilder(RAW_FISH)
+                .add(ModItems.SASHIMI)
+                .addTag(ItemTags.FISHES);
+
         getOrCreateTagBuilder(FISH)
                 .add(ModItems.NULLFIN)
                 .add(ModItems.ANGLERFISH)
@@ -80,8 +91,6 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.SUNFISH)
                 .add(ModItems.TUNA)
                 .add(ModItems.VOIDSKIPPER)
-                .add(ModItems.SALAMANDER)
-                .add(ModItems.SCULKAMANDER)
                 .add(Items.SALMON)
                 .add(Items.COD)
                 .add(Items.TROPICAL_FISH)
@@ -92,6 +101,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(EELS)
                 .add(ModItems.BRANCH_EEL)
                 .add(ModItems.DRAGONFISH)
+                .add(ModItems.SALAMANDER)
+                .add(ModItems.SCULKAMANDER)
                 .add(ModItems.AERBAIA);
 
         getOrCreateTagBuilder(SHELLFISH)
@@ -104,6 +115,17 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.TUNA)
                 .add(Items.SALMON)
                 .add(ModItems.DRAGONFISH);
+
+        getOrCreateTagBuilder(CAT_FOOD)
+                .addTag(SASHIMIFISH)
+                .add(ModItems.CATFISH)
+                .add(ModItems.BLUEGILL)
+                .add(ModItems.WALLEYE)
+                .add(ModItems.LEAFSKIMMER)
+                .add(ModItems.LARGEMOUTH_BASS)
+                .add(ModItems.PALE_BASS)
+                .add(ModItems.AERSUCKER)
+                .add(ModItems.GHOSTFISH);
 
     }
 }
