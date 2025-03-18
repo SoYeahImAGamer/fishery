@@ -17,7 +17,7 @@ import net.minecraft.world.World;
 import net.minecraft.world.event.GameEvent;
 
 public class NetheriteFishingRodItem extends FishingRodItem {
-    public NetheriteFishingRodItem(Settings settings) {
+    public NetheriteFishingRodItem(net.minecraft.item.Item.Settings settings) {
         super(settings);
     }
 

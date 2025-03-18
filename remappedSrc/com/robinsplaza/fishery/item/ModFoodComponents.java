@@ -17,11 +17,11 @@ public class ModFoodComponents {
     public static FoodComponent TOXIC_FISH = new FoodComponent.Builder()
             .nutrition(2)
             .saturationModifier(0.3f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.POISON, 200), 0.33f)
             .build();
     public static FoodComponent JELLY = new FoodComponent.Builder()
             .nutrition(4)
             .saturationModifier(0.9f)
-            .alwaysEdible()
             .build();
     public static FoodComponent SASHIMI = new FoodComponent.Builder()
             .nutrition(4)

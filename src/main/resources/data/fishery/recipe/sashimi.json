@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "tag": "fishery:sashimifish"
-    }
+    [
+      "#fishery:sashimifish"
+    ]
   ],
   "result": {
     "id": "fishery:sashimi",

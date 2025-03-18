@@ -9,16 +9,13 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-import net.minecraft.registry.RegistryKey;
-import net.minecraft.registry.RegistryKeys;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
     public static final Block SEA_JELLY_BLOCK = registerBlock("sea_jelly_block",
-            new SeaJellyBlock(AbstractBlock.Settings.copy(Blocks.HONEY_BLOCK).nonOpaque().blockVision(Blocks::never)
-                    .registryKey(RegistryKey.of(RegistryKeys.BLOCK, Identifier.of(Fishery.MOD_ID, "sea_jelly_block")))));
+            new SeaJellyBlock(AbstractBlock.Settings.copy(Blocks.HONEY_BLOCK).nonOpaque().blockVision(Blocks::never)));
 
     private static Block registerBlock(String name, Block block){
         registerBlockItem(name, block);
@@ -27,7 +24,7 @@ public class ModBlocks {
 
     private static Item registerBlockItem(String name, Block block){
         return Registry.register(Registries.ITEM, Identifier.of(Fishery.MOD_ID, name),
-                new BlockItem(block, new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Fishery.MOD_ID, name)))));
+                new BlockItem(block, new Item.Settings()));
     }
     public static void registerModBlocks(){
         Fishery.LOGGER.info("Registering blocks for " + Fishery.MOD_ID);

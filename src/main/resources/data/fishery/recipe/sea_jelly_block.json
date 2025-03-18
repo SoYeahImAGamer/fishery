@@ -2,9 +2,9 @@
   "type": "minecraft:crafting_shaped",
   "category": "redstone",
   "key": {
-    "#": {
-      "item": "fishery:jellyfish_jelly"
-    }
+    "#": [
+      "fishery:jellyfish_jelly"
+    ]
   },
   "pattern": [
     "##",

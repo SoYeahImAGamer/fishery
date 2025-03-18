@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shapeless",
   "category": "misc",
   "ingredients": [
-    {
-      "item": "fishery:jellyfish"
-    },
-    {
-      "item": "minecraft:sugar"
-    },
-    {
-      "item": "minecraft:glass_bottle"
-    }
+    [
+      "fishery:jellyfish"
+    ],
+    [
+      "minecraft:sugar"
+    ],
+    [
+      "minecraft:glass_bottle"
+    ]
   ],
   "result": {
     "count": 1,

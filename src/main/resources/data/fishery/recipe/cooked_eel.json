@@ -1,12 +1,10 @@
 {
   "type": "minecraft:smelting",
   "category": "food",
-  "cookingtime": 200,
-  "experience": 0.1,
-  "ingredient": {
-    "tag": "fishery:eels"
-  },
+  "ingredient": "#fishery:eels",
   "result": {
     "id": "fishery:cooked_eel"
-  }
+  },
+  "experience": 0.1,
+  "cookingtime": 200
 }

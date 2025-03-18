@@ -37,6 +37,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         getOrCreateTagBuilder(KNIVES)
                 .add(ModItems.FILLET_KNIFE);
 
+        getOrCreateTagBuilder(TOOLS)
+                .add(ModItems.NETHERITE_FISHING_ROD)
+                .addTag(KNIVES);
+
+        getOrCreateTagBuilder(ItemTags.FISHING_ENCHANTABLE)
+                .add(ModItems.NETHERITE_FISHING_ROD);
+
         getOrCreateTagBuilder(ItemTags.FISHES)
                 .add(ModItems.NULLFIN)
                 .add(ModItems.ANGLERFISH)

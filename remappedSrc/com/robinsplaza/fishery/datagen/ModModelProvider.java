@@ -3,15 +3,14 @@ package com.robinsplaza.fishery.datagen;
 import com.ibm.icu.text.Normalizer2;
 import com.robinsplaza.fishery.block.ModBlocks;
 import com.robinsplaza.fishery.item.ModItems;
-import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.client.data.BlockStateModelGenerator;
 import net.minecraft.client.data.ItemModelGenerator;
 import net.minecraft.client.data.Models;
 import net.minecraft.item.Items;
 
 public class ModModelProvider extends FabricModelProvider {
-
     public ModModelProvider(FabricDataOutput output) {
         super(output);
     }
@@ -27,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
 
         itemModelGenerator.register(ModItems.FILLET_KNIFE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_FISHING_ROD, Models.HANDHELD_ROD);
 
         //fish
         itemModelGenerator.register(ModItems.NULLFIN, Models.GENERATED);
@@ -61,13 +61,13 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.JELLYFISH, Models.GENERATED);
 
         //food
-        itemModelGenerator.register(ModItems.COOKED_FISH, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COOKED_FISH, Items.COOKED_COD, Models.GENERATED);
         itemModelGenerator.register(ModItems.COOKED_EEL, Models.GENERATED);
         itemModelGenerator.register(ModItems.JELLYFISH_JELLY, Models.GENERATED);
         itemModelGenerator.register(ModItems.SASHIMI, Models.GENERATED);
 
         //mod compat items
-        //aether
+            //aether
         itemModelGenerator.register(ModItems.AERBAIA, Models.GENERATED);
         itemModelGenerator.register(ModItems.AERSUCKER, Models.GENERATED);
 
