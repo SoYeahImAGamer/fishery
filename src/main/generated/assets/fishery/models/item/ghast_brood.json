@@ -1,5 +1,5 @@
 {
-  "parent": "minecraft:item/generated",
+  "parent": "fishery:item/fish",
   "textures": {
     "layer0": "fishery:item/ghast_brood"
   }

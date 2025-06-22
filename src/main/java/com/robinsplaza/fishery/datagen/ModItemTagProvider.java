@@ -34,10 +34,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
 
-        getOrCreateTagBuilder(KNIVES)
+        valueLookupBuilder(KNIVES)
                 .add(ModItems.FILLET_KNIFE);
 
-        getOrCreateTagBuilder(ItemTags.FISHES)
+        valueLookupBuilder(ItemTags.FISHES)
                 .add(ModItems.NULLFIN)
                 .add(ModItems.ANGLERFISH)
                 .add(ModItems.BLUEGILL)
@@ -64,14 +64,14 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.AERBAIA)
                 .add(ModItems.AERSUCKER);
 
-        getOrCreateTagBuilder(CFISH)
+        valueLookupBuilder(CFISH)
                 .addTag(ItemTags.FISHES);
 
-        getOrCreateTagBuilder(RAW_FISH)
+        valueLookupBuilder(RAW_FISH)
                 .add(ModItems.SASHIMI)
                 .addTag(ItemTags.FISHES);
 
-        getOrCreateTagBuilder(FISH)
+        valueLookupBuilder(FISH)
                 .add(ModItems.NULLFIN)
                 .add(ModItems.ANGLERFISH)
                 .add(ModItems.BLUEGILL)
@@ -91,25 +91,25 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.LEAFSKIMMER)
                 .add(ModItems.AERSUCKER);
 
-        getOrCreateTagBuilder(EELS)
+        valueLookupBuilder(EELS)
                 .add(ModItems.BRANCH_EEL)
                 .add(ModItems.DRAGONFISH)
                 .add(ModItems.SALAMANDER)
                 .add(ModItems.SCULKAMANDER)
                 .add(ModItems.AERBAIA);
 
-        getOrCreateTagBuilder(SHELLFISH)
+        valueLookupBuilder(SHELLFISH)
                 .add(ModItems.CRAB_CLAW)
                 .add(ModItems.CRAYFISH);
 
-        getOrCreateTagBuilder(SASHIMIFISH)
+        valueLookupBuilder(SASHIMIFISH)
                 .add(ModItems.NULLFIN)
                 .add(ModItems.RED_SNAPPER)
                 .add(ModItems.TUNA)
                 .add(Items.SALMON)
                 .add(ModItems.DRAGONFISH);
 
-        getOrCreateTagBuilder(CAT_FOOD)
+        valueLookupBuilder(CAT_FOOD)
                 .addTag(SASHIMIFISH)
                 .add(ModItems.CATFISH)
                 .add(ModItems.BLUEGILL)

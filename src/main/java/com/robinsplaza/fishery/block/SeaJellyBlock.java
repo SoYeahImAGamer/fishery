@@ -3,6 +3,7 @@ package com.robinsplaza.fishery.block;
 import com.mojang.serialization.MapCodec;
 import net.minecraft.block.*;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityCollisionHandler;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.TntEntity;
 import net.minecraft.entity.vehicle.AbstractMinecartEntity;
@@ -51,13 +52,13 @@ public class SeaJellyBlock extends TranslucentBlock {
 
     }
 
-    protected void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity) {
+    protected void onEntityCollision(BlockState state, World world, BlockPos pos, Entity entity, EntityCollisionHandler handler) {
         if (this.isSliding(pos, entity)) {
             this.updateSlidingVelocity(entity);
             this.addCollisionEffects(world, entity);
         }
 
-        super.onEntityCollision(state, world, pos, entity);
+        super.onEntityCollision(state, world, pos, entity, handler);
     }
 
     private boolean isSliding(BlockPos pos, Entity entity) {
@@ -113,7 +114,7 @@ public class SeaJellyBlock extends TranslucentBlock {
             BlockState blockState = ModBlocks.SEA_JELLY_BLOCK.getDefaultState();
 
             for(int i = 0; i < count; ++i) {
-                entity.getWorld().addParticle(new BlockStateParticleEffect(ParticleTypes.BLOCK, blockState), entity.getX(), entity.getY(), entity.getZ(), 0.0, 0.0, 0.0);
+                entity.getWorld().addParticleClient(new BlockStateParticleEffect(ParticleTypes.BLOCK, blockState), entity.getX(), entity.getY(), entity.getZ(), 0.0, 0.0, 0.0);
             }
 
         }
