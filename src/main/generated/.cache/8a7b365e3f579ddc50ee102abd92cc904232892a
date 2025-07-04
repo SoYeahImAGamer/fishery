@@ -19,6 +19,7 @@ afa36512773f7243313af705110793d4b9853118 assets/fishery/items/echofin.json
 5188486de51ae05fd8dfe9440560387ef6413b3a assets/fishery/items/jellyfish_jelly.json
 300723d9e20cf7715397f2fef119b3bfdf2b0d5e assets/fishery/items/largemouth_bass.json
 6a44e2fb835066d97ac2dcb390870183b86f51bb assets/fishery/items/leafskimmer.json
+ff079a6bcd92b2b01151a3c47ba9047c9d0f9dff assets/fishery/items/magma_jellyfish.json
 91d2ec0dd8bdeaa9db9a51f3215b0029e8e223a0 assets/fishery/items/nullfin.json
 725b312d1856371c419ff337cb566e8d564ba71a assets/fishery/items/pale_bass.json
 eef52dc47f9b89ce888e426cb9faecc4a79283f1 assets/fishery/items/red_snapper.json
@@ -50,6 +51,7 @@ fea20ddbe22786077dc7ebbc0ea55bebbabed535 assets/fishery/models/item/jellyfish.js
 f01a7d7baca75a0d4d0e318fd28e963ce52cf31f assets/fishery/models/item/jellyfish_jelly.json
 167d76e0ddd89eb5040ccda5167a39c505b51cc6 assets/fishery/models/item/largemouth_bass.json
 be2ddc1024a5a904ee668df123499114e67996b9 assets/fishery/models/item/leafskimmer.json
+31ed0b0b210d28264cfaa3020ce46ada7f781672 assets/fishery/models/item/magma_jellyfish.json
 1355bb054b55d3198e97a5514245343cddbbb7e2 assets/fishery/models/item/nullfin.json
 9a884fdf8608d52558c07ad822a643458f6c2bf9 assets/fishery/models/item/pale_bass.json
 285ebc5038d180bf381ba6a431948c383b2f3e0e assets/fishery/models/item/red_snapper.json

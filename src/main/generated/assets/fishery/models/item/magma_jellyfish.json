@@ -1,0 +1,6 @@
+{
+  "parent": "fishery:item/fish",
+  "textures": {
+    "layer0": "fishery:item/magma_jellyfish"
+  }
+}

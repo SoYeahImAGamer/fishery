@@ -18,6 +18,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     private static final TagKey<Item> SHELLFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:shellfish"));
     private static final TagKey<Item> SASHIMIFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:sashimifish"));
     private static final TagKey<Item> EELS = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:eels"));
+    private static final TagKey<Item> JELLYFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:jellyfish"));
 
 
     private static final TagKey<Item> CFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:fish"));
@@ -119,6 +120,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModItems.PALE_BASS)
                 .add(ModItems.AERSUCKER)
                 .add(ModItems.GHOSTFISH);
+
+        valueLookupBuilder(JELLYFISH)
+                .add(ModItems.JELLYFISH)
+                .add(ModItems.MAGMA_JELLYFISH);
 
     }
 }

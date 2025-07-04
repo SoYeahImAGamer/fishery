@@ -27,11 +27,14 @@ public class ModItems {
 
     //nether fish
     public static final Item GHAST_BROOD = (Item) registerItem("ghast_brood",
-            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH)
+            new Item(new Item.Settings().food(ModFoodComponents.RAW_FISH).fireproof()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Fishery.MOD_ID, "ghast_brood")))));
     public static final Item SOUL_LEECH = (Item) registerItem("soul_leech",
-            new Item(new Item.Settings().food(ModFoodComponents.TOXIC_FISH, ConsumableComponents.PUFFERFISH)
+            new Item(new Item.Settings().food(ModFoodComponents.TOXIC_FISH, ConsumableComponents.PUFFERFISH).fireproof()
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Fishery.MOD_ID, "soul_leech")))));
+    public static final Item MAGMA_JELLYFISH = (Item) registerItem("magma_jellyfish",
+            new Item(new Item.Settings().food(ModFoodComponents.TOXIC_FISH, ConsumableComponents.PUFFERFISH).fireproof()
+                    .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(Fishery.MOD_ID, "magma_jellyfish")))));
 
     //overworld fish
         //forest fish

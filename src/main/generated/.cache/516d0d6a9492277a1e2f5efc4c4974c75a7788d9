@@ -4,6 +4,7 @@ cd20fed2d48991b10e9c0f0c3cfa2f6d4a219f4c data/c/tags/item/foods/raw_fish.json
 68795ee67880b64587b2132cbb33166f2060e82e data/c/tags/item/tools/knives.json
 8b0d8fcc4c891b7a642f3fa21723deaed91bcf38 data/fishery/tags/item/eels.json
 7d28fe03138ea3ba7bfb6880dda34dbbbd2c3736 data/fishery/tags/item/fish.json
+d05213b9656708974049f4f8088f699428b9661a data/fishery/tags/item/jellyfish.json
 b4dab08dba328849fc8609a247b3872e60221dc3 data/fishery/tags/item/sashimifish.json
 1be98dcd857a5d1f167dfa23a0dd03bb1eedd43f data/fishery/tags/item/shellfish.json
 190234e290f82466796a661093b24f12a56eba63 data/minecraft/tags/item/cat_food.json

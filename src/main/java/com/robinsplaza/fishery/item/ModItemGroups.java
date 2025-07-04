@@ -20,6 +20,7 @@ public class ModItemGroups {
 
                         entries.add(ModItems.SOUL_LEECH);
                         entries.add(ModItems.GHAST_BROOD);
+                        entries.add(ModItems.MAGMA_JELLYFISH);
 
                         entries.add(ModItems.CRAYFISH);
                         entries.add(ModItems.CRAB_CLAW);

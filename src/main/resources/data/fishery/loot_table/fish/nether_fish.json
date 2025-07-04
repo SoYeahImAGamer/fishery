@@ -18,7 +18,7 @@
         {
           "type": "minecraft:item",
           "weight": 30,
-          "name": "fishery:jellyfish"
+          "name": "fishery:magma_jellyfish"
         }
       ]
     }

@@ -38,6 +38,7 @@ public class ModModelProvider extends FabricModelProvider {
 
         itemModelGenerator.register(ModItems.GHAST_BROOD, FISH);
         itemModelGenerator.register(ModItems.SOUL_LEECH, FISH);
+        itemModelGenerator.register(ModItems.MAGMA_JELLYFISH, FISH);
 
         itemModelGenerator.register(ModItems.WALLEYE, FISH);
         itemModelGenerator.register(ModItems.LEAFSKIMMER, FISH);
