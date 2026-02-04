@@ -1,0 +1,49 @@
+{
+  "item.fishery.fillet_knife": "Филейный нож",
+  "item.fishery.netherite_fishing_rod": "Незеритовая удочка",
+
+  "item.fishery.dragonfish": "Рыба-дракон",
+  "item.fishery.voidskipper": "Скакун пустоты",
+
+  "item.fishery.ghast_brood": "Выводок гаста",
+  "item.fishery.soul_leech": "Сосущий души",
+  "item.fishery.magma_jellyfish": "Магматическая медуза",
+
+  "item.fishery.walleye": "Светлопёрый судак",
+  "item.fishery.leafskimmer": "Лиственный плавун",
+  "item.fishery.branch_eel": "Ветвистый угорь",
+
+  "item.fishery.crayfish": "Рак",
+  "item.fishery.catfish": "Сом",
+  "item.fishery.crab_claw": "Клешня краба",
+
+  "item.fishery.salamander": "Саламандра",
+  "item.fishery.ghostfish": "Рыба-призрак",
+  "item.fishery.pale_bass": "Бледный окунь",
+  "item.fishery.echofin": "Эхо-плавник",
+  "item.fishery.sculkamander": "Скалькамандра",
+
+  "item.fishery.largemouth_bass": "Большеротый окунь",
+  "item.fishery.bluegill": "Синежаберный солнечник",
+
+  "item.fishery.tuna": "Тунец",
+  "item.fishery.sunfish": "Рыба-солнце",
+  "item.fishery.red_snapper": "Красный луциан",
+  "item.fishery.anglerfish": "Рыба-удильщик",
+  "item.fishery.jellyfish": "Медуза",
+
+  "item.fishery.cooked_fish": "Жареная рыба",
+  "item.fishery.cooked_eel": "Жареный угорь",
+  "item.fishery.jellyfish_jelly": "Морское желе",
+  "item.fishery.sashimi": "Сашими",
+
+  "block.fishery.sea_jelly_block": "Блок морского желе",
+  "item.fishery.sea_jelly_block": "Блок морского желе",
+
+  "itemgroup.fish": "Рыболовство",
+
+  "item.fishery.aerbaia": "Аэрбая",
+  "item.fishery.aersucker": "Аэросос",
+
+  "item.fishery.nullfin": "Нулёвка"
+}
