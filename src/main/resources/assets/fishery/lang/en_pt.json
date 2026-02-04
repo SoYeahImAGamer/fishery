@@ -45,5 +45,7 @@
 
 
   "item.fishery.aerbaia": "Cloud eel",
-  "item.fishery.aersucker": "Cloud leech"
+  "item.fishery.aersucker": "Cloud leech",
+
+  "item.fishery.nullfin": "Item.Nullfin"
 }
