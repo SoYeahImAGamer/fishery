@@ -196,7 +196,7 @@
             {
               "condition": "minecraft:location_check",
               "predicate": {
-                "biomes": "#minecraft:has_structure/village_plains"
+                "biomes": "#c:is_plains"
               }
             }
           ]
