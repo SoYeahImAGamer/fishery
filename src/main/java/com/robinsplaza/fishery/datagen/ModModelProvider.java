@@ -5,80 +5,83 @@ import com.robinsplaza.fishery.Fishery;
 import com.robinsplaza.fishery.block.ModBlocks;
 import com.robinsplaza.fishery.item.ModItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.minecraft.client.data.*;
-import net.minecraft.item.Items;
-import net.minecraft.util.Identifier;
-
+import net.minecraft.client.data.models.BlockModelGenerators;
+import net.minecraft.client.data.models.ItemModelGenerators;
+import net.minecraft.client.data.models.model.ModelTemplate;
+import net.minecraft.client.data.models.model.ModelTemplates;
+import net.minecraft.client.data.models.model.TextureSlot;
+import net.minecraft.resources.Identifier;
 import java.util.Optional;
 
 public class ModModelProvider extends FabricModelProvider {
 
-    public ModModelProvider(FabricDataOutput output) {
+    public ModModelProvider(FabricPackOutput output) {
         super(output);
     }
 
     @Override
-    public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
+    public void generateBlockStateModels(BlockModelGenerators blockStateModelGenerator) {
 
-        blockStateModelGenerator.registerSimpleState(ModBlocks.SEA_JELLY_BLOCK);
+        blockStateModelGenerator.createNonTemplateModelBlock(ModBlocks.SEA_JELLY_BLOCK);
 
     }
 
     @Override
-    public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+    public void generateItemModels(ItemModelGenerators itemModelGenerator) {
 
-        itemModelGenerator.register(ModItems.FILLET_KNIFE, Models.GENERATED);
+        itemModelGenerator.generateFlatItem(ModItems.FILLET_KNIFE, ModelTemplates.FLAT_ITEM);
 
         //fish
-        itemModelGenerator.register(ModItems.NULLFIN, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.NULLFIN, FISH);
 
-        itemModelGenerator.register(ModItems.DRAGONFISH, FISH);
-        itemModelGenerator.register(ModItems.VOIDSKIPPER, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.DRAGONFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.VOIDSKIPPER, FISH);
 
-        itemModelGenerator.register(ModItems.GHAST_BROOD, FISH);
-        itemModelGenerator.register(ModItems.SOUL_LEECH, FISH);
-        itemModelGenerator.register(ModItems.MAGMA_JELLYFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.GHAST_BROOD, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.SOUL_LEECH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.MAGMA_JELLYFISH, FISH);
 
-        itemModelGenerator.register(ModItems.WALLEYE, FISH);
-        itemModelGenerator.register(ModItems.LEAFSKIMMER, FISH);
-        itemModelGenerator.register(ModItems.BRANCH_EEL, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.WALLEYE, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.LEAFSKIMMER, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.BRANCH_EEL, FISH);
 
-        itemModelGenerator.register(ModItems.CRAYFISH, FISH);
-        itemModelGenerator.register(ModItems.CATFISH, FISH);
-        itemModelGenerator.register(ModItems.CRAB_CLAW, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.CRAYFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.CATFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.CRAB_CLAW, FISH);
 
-        itemModelGenerator.register(ModItems.SALAMANDER, FISH);
-        itemModelGenerator.register(ModItems.GHOSTFISH, FISH);
-        itemModelGenerator.register(ModItems.PALE_BASS, FISH);
-        itemModelGenerator.register(ModItems.ECHOFIN, FISH);
-        itemModelGenerator.register(ModItems.SCULKAMANDER, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.SALAMANDER, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.GHOSTFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.PALE_BASS, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.ECHOFIN, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.SCULKAMANDER, FISH);
 
-        itemModelGenerator.register(ModItems.LARGEMOUTH_BASS, FISH);
-        itemModelGenerator.register(ModItems.BLUEGILL, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.LARGEMOUTH_BASS, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.BLUEGILL, FISH);
 
-        itemModelGenerator.register(ModItems.TUNA, FISH);
-        itemModelGenerator.register(ModItems.SUNFISH, FISH);
-        itemModelGenerator.register(ModItems.RED_SNAPPER, FISH);
-        itemModelGenerator.register(ModItems.ANGLERFISH, FISH);
-        itemModelGenerator.register(ModItems.JELLYFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.TUNA, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.SUNFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.RED_SNAPPER, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.ANGLERFISH, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.JELLYFISH, FISH);
 
         //food
-        itemModelGenerator.register(ModItems.COOKED_FISH, Models.GENERATED);
-        itemModelGenerator.register(ModItems.COOKED_EEL, Models.GENERATED);
-        itemModelGenerator.register(ModItems.JELLYFISH_JELLY, Models.GENERATED);
-        itemModelGenerator.register(ModItems.SASHIMI, Models.GENERATED);
+        itemModelGenerator.generateFlatItem(ModItems.COOKED_FISH, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.COOKED_EEL, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.JELLYFISH_JELLY, ModelTemplates.FLAT_ITEM);
+        itemModelGenerator.generateFlatItem(ModItems.SASHIMI, ModelTemplates.FLAT_ITEM);
 
         //mod compat items
         //aether
-        itemModelGenerator.register(ModItems.AERBAIA, FISH);
-        itemModelGenerator.register(ModItems.AERSUCKER, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.AERBAIA, FISH);
+        itemModelGenerator.generateFlatItem(ModItems.AERSUCKER, FISH);
 
     }
 
-    private static Model item(String parent, TextureKey... requiredTextureKeys) {
-        return new Model(Optional.of(Identifier.of(Fishery.MOD_ID, "item/" + parent)), Optional.empty(), requiredTextureKeys);
+    private static ModelTemplate item(String parent, TextureSlot... requiredTextureKeys) {
+        return new ModelTemplate(Optional.of(Identifier.fromNamespaceAndPath(Fishery.MOD_ID, "item/" + parent)), Optional.empty(), requiredTextureKeys);
     }
 
-    public static final Model FISH = item("fish", TextureKey.LAYER0);
+    public static final ModelTemplate FISH = item("fish", TextureSlot.LAYER0);
 }

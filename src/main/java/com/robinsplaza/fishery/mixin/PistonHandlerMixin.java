@@ -1,26 +1,26 @@
 package com.robinsplaza.fishery.mixin;
 
 import com.robinsplaza.fishery.block.ModBlocks;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.piston.PistonHandler;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.piston.PistonStructureResolver;
+import net.minecraft.world.level.block.state.BlockState;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-@Mixin(value = PistonHandler.class, priority=450)
+@Mixin(value = PistonStructureResolver.class, priority=450)
 public abstract class PistonHandlerMixin {
 
-    @Inject(method = "isBlockSticky", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "isSticky", at = @At("HEAD"), cancellable = true)
     private static void isBlockSticky(BlockState state, CallbackInfoReturnable<Boolean> cir) {
         if (state.getBlock() == ModBlocks.SEA_JELLY_BLOCK) {
             cir.setReturnValue(true);
         }
     }
 
-    @Inject(method = "isAdjacentBlockStuck", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "canStickToEachOther", at = @At("HEAD"), cancellable = true)
     private static void isAdjacentBlockStuck(BlockState blockState1, BlockState blockState2, CallbackInfoReturnable<Boolean> ci) {
         Block block1 = blockState1.getBlock();
         Block block2 = blockState2.getBlock();

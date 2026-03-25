@@ -2,60 +2,60 @@ package com.robinsplaza.fishery.item;
 
 import com.robinsplaza.fishery.Fishery;
 import com.robinsplaza.fishery.block.ModBlocks;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
-import net.minecraft.text.Text;
-import net.minecraft.util.Identifier;
+import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.Identifier;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.ItemStack;
 
 public class ModItemGroups {
-    public static final ItemGroup FISH_GROUP = Registry.register(Registries.ITEM_GROUP, Identifier.of(Fishery.MOD_ID, "fish"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.fish"))
-                    .icon(() -> new ItemStack(ModItems.LARGEMOUTH_BASS)).entries((displayContext, entries) -> {
+    public static final CreativeModeTab FISH_GROUP = Registry.register(BuiltInRegistries.CREATIVE_MODE_TAB, Identifier.fromNamespaceAndPath(Fishery.MOD_ID, "fish"),
+            FabricCreativeModeTab.builder().title(Component.translatable("itemgroup.fish"))
+                    .icon(() -> new ItemStack(ModItems.LARGEMOUTH_BASS)).displayItems((displayContext, entries) -> {
 
-                        entries.add(ModItems.DRAGONFISH);
-                        entries.add(ModItems.VOIDSKIPPER);
+                        entries.accept(ModItems.DRAGONFISH);
+                        entries.accept(ModItems.VOIDSKIPPER);
 
-                        entries.add(ModItems.SOUL_LEECH);
-                        entries.add(ModItems.GHAST_BROOD);
-                        entries.add(ModItems.MAGMA_JELLYFISH);
+                        entries.accept(ModItems.SOUL_LEECH);
+                        entries.accept(ModItems.GHAST_BROOD);
+                        entries.accept(ModItems.MAGMA_JELLYFISH);
 
-                        entries.add(ModItems.CRAYFISH);
-                        entries.add(ModItems.CRAB_CLAW);
-                        entries.add(ModItems.CATFISH);
+                        entries.accept(ModItems.CRAYFISH);
+                        entries.accept(ModItems.CRAB_CLAW);
+                        entries.accept(ModItems.CATFISH);
 
-                        entries.add(ModItems.LEAFSKIMMER);
-                        entries.add(ModItems.BRANCH_EEL);
-                        entries.add(ModItems.WALLEYE);
+                        entries.accept(ModItems.LEAFSKIMMER);
+                        entries.accept(ModItems.BRANCH_EEL);
+                        entries.accept(ModItems.WALLEYE);
 
-                        entries.add(ModItems.SALAMANDER);
-                        entries.add(ModItems.GHOSTFISH);
-                        entries.add(ModItems.PALE_BASS);
-                        entries.add(ModItems.SCULKAMANDER);
-                        entries.add(ModItems.ECHOFIN);
+                        entries.accept(ModItems.SALAMANDER);
+                        entries.accept(ModItems.GHOSTFISH);
+                        entries.accept(ModItems.PALE_BASS);
+                        entries.accept(ModItems.SCULKAMANDER);
+                        entries.accept(ModItems.ECHOFIN);
 
-                        entries.add(ModItems.LARGEMOUTH_BASS);
-                        entries.add(ModItems.BLUEGILL);
+                        entries.accept(ModItems.LARGEMOUTH_BASS);
+                        entries.accept(ModItems.BLUEGILL);
 
-                        entries.add(ModItems.TUNA);
-                        entries.add(ModItems.SUNFISH);
-                        entries.add(ModItems.RED_SNAPPER);
-                        entries.add(ModItems.ANGLERFISH);
-                        entries.add(ModItems.JELLYFISH);
+                        entries.accept(ModItems.TUNA);
+                        entries.accept(ModItems.SUNFISH);
+                        entries.accept(ModItems.RED_SNAPPER);
+                        entries.accept(ModItems.ANGLERFISH);
+                        entries.accept(ModItems.JELLYFISH);
 
-                        entries.add(ModItems.COOKED_FISH);
-                        entries.add(ModItems.COOKED_EEL);
-                        entries.add(ModItems.SASHIMI);
-                        entries.add(ModItems.JELLYFISH_JELLY);
-                        entries.add(ModBlocks.SEA_JELLY_BLOCK);
+                        entries.accept(ModItems.COOKED_FISH);
+                        entries.accept(ModItems.COOKED_EEL);
+                        entries.accept(ModItems.SASHIMI);
+                        entries.accept(ModItems.JELLYFISH_JELLY);
+                        entries.accept(ModBlocks.SEA_JELLY_BLOCK);
 
                         //entries.add(ModItems.NETHERITE_FISHING_ROD);
 
-                        entries.add(ModItems.NULLFIN);
-                        entries.add(ModItems.AERBAIA);
-                        entries.add(ModItems.AERSUCKER);
+                        entries.accept(ModItems.NULLFIN);
+                        entries.accept(ModItems.AERBAIA);
+                        entries.accept(ModItems.AERSUCKER);
 
 
                     }).build());

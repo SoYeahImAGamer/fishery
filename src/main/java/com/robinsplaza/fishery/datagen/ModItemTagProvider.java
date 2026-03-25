@@ -1,39 +1,38 @@
 package com.robinsplaza.fishery.datagen;
 
 import com.robinsplaza.fishery.item.ModItems;
-import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
-import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
-import net.minecraft.item.Item;
-import net.minecraft.item.Items;
-import net.minecraft.registry.RegistryKeys;
-import net.minecraft.registry.RegistryWrapper;
-import net.minecraft.registry.tag.ItemTags;
-import net.minecraft.registry.tag.TagKey;
-import net.minecraft.util.Identifier;
-
+import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagsProvider;
+import net.minecraft.core.HolderLookup;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.Identifier;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Items;
 import java.util.concurrent.CompletableFuture;
 
-public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
-    private static final TagKey<Item> FISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:fish"));
-    private static final TagKey<Item> SHELLFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:shellfish"));
-    private static final TagKey<Item> SASHIMIFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:sashimifish"));
-    private static final TagKey<Item> EELS = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:eels"));
-    private static final TagKey<Item> JELLYFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("fishery:jellyfish"));
+public class ModItemTagProvider extends FabricTagsProvider.ItemTagsProvider {
+    private static final TagKey<Item> FISH = TagKey.create(Registries.ITEM, Identifier.parse("fishery:fish"));
+    private static final TagKey<Item> SHELLFISH = TagKey.create(Registries.ITEM, Identifier.parse("fishery:shellfish"));
+    private static final TagKey<Item> SASHIMIFISH = TagKey.create(Registries.ITEM, Identifier.parse("fishery:sashimifish"));
+    private static final TagKey<Item> EELS = TagKey.create(Registries.ITEM, Identifier.parse("fishery:eels"));
+    private static final TagKey<Item> JELLYFISH = TagKey.create(Registries.ITEM, Identifier.parse("fishery:jellyfish"));
 
 
-    private static final TagKey<Item> CFISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:fish"));
-    private static final TagKey<Item> RAW_FISH = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:foods/raw_fish"));
-    private static final TagKey<Item> KNIVES = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:tools/knives"));
-    private static final TagKey<Item> TOOLS = TagKey.of(RegistryKeys.ITEM, Identifier.of("c:tools"));
+    private static final TagKey<Item> CFISH = TagKey.create(Registries.ITEM, Identifier.parse("c:fish"));
+    private static final TagKey<Item> RAW_FISH = TagKey.create(Registries.ITEM, Identifier.parse("c:foods/raw_fish"));
+    private static final TagKey<Item> KNIVES = TagKey.create(Registries.ITEM, Identifier.parse("c:tools/knives"));
+    private static final TagKey<Item> TOOLS = TagKey.create(Registries.ITEM, Identifier.parse("c:tools"));
 
-    private static final TagKey<Item> CAT_FOOD = TagKey.of(RegistryKeys.ITEM, Identifier.of("minecraft:cat_food"));
+    private static final TagKey<Item> CAT_FOOD = TagKey.create(Registries.ITEM, Identifier.parse("minecraft:cat_food"));
 
-    public ModItemTagProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> completableFuture) {
+    public ModItemTagProvider(FabricPackOutput output, CompletableFuture<HolderLookup.Provider> completableFuture) {
         super(output, completableFuture);
     }
 
     @Override
-    protected void configure(RegistryWrapper.WrapperLookup wrapperLookup) {
+    protected void addTags(HolderLookup.Provider wrapperLookup) {
 
         valueLookupBuilder(KNIVES)
                 .add(ModItems.FILLET_KNIFE);
